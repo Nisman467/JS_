@@ -62,3 +62,34 @@ console.log(tinderUser.hasOwnProperty("Fullname"));
 
 
 // console.log(users[0].email);
+
+
+
+const course = {
+    courseName: "JS in nepali",
+    price: "999",
+    courseInstructor: "Nisman"
+}
+
+// course.courseInstructor
+
+
+
+
+// ***Destructuring***
+
+
+
+// this is how we can display the keys from the objects with different vairable name
+const {courseInstructor: teacher} = course
+
+console.log(teacher);
+
+
+// Generally, the API uses a json to hold the data where the both keys and values are strings and json is given as :
+// {
+//     "name" : "Nisman",
+//     "courseName": "JS in nepali",
+//     "price" : "free"
+// }
+
